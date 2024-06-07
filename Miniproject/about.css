@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navba {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  font-family: sans-serif, sans-serif;
+  font-size: 20px;
+  background-color: white;
+  & .logo {
+    margin-top: -15px;
+    margin-left: 50px;
+    height: 110px;
+    width: 110px;
+    flex-wrap: nowrap;
+    display: flex;
+  }
+  & .search input {
+    margin-top: 20px;
+    margin-left: 90px;
+    border-color: black;
+    outline: solid;
+    border-radius: 20px;
+    padding-left: 34px;
+  }
+  & .search img {
+    margin-top: -23px;
+    margin-left: 100px;
+    width: 20px;
+    height: 20px;
+  }
+  .menu ul {
+    display: flex;
+    padding-left: 210px;
+  }
+  .menu ul li {
+    margin-top: -15px;
+    padding: 40px;
+  }
+  & .bt button {
+    margin-left: 20px;
+    margin-top: 15px;
+    padding: 7px;
+    border-radius: 30px;
+  }
+  & .bt {
+    background-size: 30px;
+  }
+}
+main {
+  width: 100%;
+  height: 100vh;
+}
+.body {
+  width: 100%;
+  height: 100px;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+}
+.body p {
+  margin-left: 20px;
+  color: black;
+  font-family: sans-serif;
+  font-size: 40px;
+}
+.im img {
+  width: 500px;
+  height: 500px;
+}
+.im{
+  padding-right: 120px;
+  display: flex;
+  justify-content: right;
+}
+.txt{
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: center;
+  text-align: justify;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: -450px;
+  width: 40%;
+}
